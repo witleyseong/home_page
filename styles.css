@@ -45,7 +45,7 @@ nav .links ul li {
 }
 
 header {
-    background-image: url("/images/luca-bravo-9l_326FISzk-unsplash.jpg");
+    background-image: url("images/luca-bravo-9l_326FISzk-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -124,21 +124,21 @@ section .third{
 }
 
 #le {
-    background-image: url(/images/Team/ceo.jpeg);
+    background-image: url(images/Team/ceo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #beatriz {
-    background-image: url(/images/Team/2.jpeg);
+    background-image: url(images/Team/2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #bia {
-    background-image: url(/images/Team/3.jpeg);
+    background-image: url(images/Team/3.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
