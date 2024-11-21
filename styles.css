@@ -1,0 +1,177 @@
+nav{
+    width: 100%;
+    padding: 0.625rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.links a{
+    color: white;
+    margin-right: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+nav .links ul{
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+nav .links ul li {
+    justify-content: space-around;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+    
+}
+
+header {
+    background-image: url("/images/luca-bravo-9l_326FISzk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    color: rgb(239, 240, 232);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+
+/* First Section */
+
+section .content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(9, 65, 129);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section .content h2{
+    text-align: center;
+    color:blueviolet;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Second Section */
+
+section .about h2{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    font-weight: 400;
+}
+
+section .clients {
+    display: flex;
+    width: 90vw;
+}
+
+section .clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+section .clients img{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10vw;
+    border-radius: 50px;
+}
+
+/* Third Section */
+
+section .ourteam h2 {
+    font-size: 40px;
+    text-align: center;
+    color: blueviolet;
+    font-weight: lighter;
+}
+
+section .third{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#le {
+    background-image: url(/images/Team/ceo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#beatriz {
+    background-image: url(/images/Team/2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bia {
+    background-image: url(/images/Team/3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .team {
+    width: auto;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    gap:10px
+}
+
+section .description {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 40px;
+    padding: 5px 30px;
+    border-top: 2px solid #282b37;
+    background-color: #0b0d1791;
+    color: rgb(82, 18, 18);
+    text-align: center;
+}
+
+@media only screen and(max-width:480px){
+    
+}
